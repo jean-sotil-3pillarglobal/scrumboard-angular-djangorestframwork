@@ -5,6 +5,6 @@
 		bindings: {},
 		transclude: false,
 		controllerAs : "mv",
-		controller : ["$scope", app.controllers.scrumboard]
+		controller : ["$scope", "$http", app.controllers.scrumboard]
 	});
 }());
